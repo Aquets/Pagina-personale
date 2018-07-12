@@ -85,7 +85,7 @@ body {
 
 .textbox{
   width: 40%
-   
+
 }
 
 @media only screen and (min-width: 767px){
@@ -164,7 +164,6 @@ body {
 
   .section{
     width: 100%;
-    height:100vh;
     padding-top: 5vh;
     padding-right: 5vw;
     padding-left: 5vw;
@@ -223,6 +222,9 @@ body {
     font-size: 133%;
   }
 
+  .textbox{
+    text-align: left;
+  }
 
 
 }

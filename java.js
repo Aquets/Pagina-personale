@@ -30,7 +30,7 @@ function affixNavPc(){
 function affixNavPhone(){
 		$('.nav_container').affix({
       offset: {
-        top: $(window).height() * 1.0
+        top: $(window).height() * 1.1
       }
 		});
 };

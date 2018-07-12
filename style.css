@@ -1,12 +1,12 @@
 body {
      position: relative;
  }
- #home{padding:0;height:100vh;color: #fff; background-color: #1E66E5;}
- #profile {padding-top:50px;color: #fff; background-color: #1E88E5;}
- #works {padding-top:50px;color: #fff; background-color: #673ab7;}
- #exercices {padding-top:50px;color: #fff; background-color: #ff9800;}
- #skills {padding-top:50px;color: #fff; background-color: #00bcd4;}
- #contact {padding-top:50px;color: #fff; background-color: #009688;}
+ #home{padding:0;height:100vh;color: #252525; background-color: black;}
+ #profile {padding-top:50px;color: #252525; background-color: #c1deef;}
+ #works {padding-top:50px;color: #252525; background-color: #dff3ff;}
+ #exercices {padding-top:50px;color: #252525; background-color: #c1deef;}
+ #skills {padding-top:50px;color: #252525; background-color: #dff3ff;}
+ #contact {padding-top:50px;color: #808080; background-color: #13151b;}
 
 .nav_top{
   display: flex;
@@ -76,11 +76,14 @@ body {
 }
 @media only screen and (min-width: 767px){
 
-  #profile {height:100vh;}
-  #works {height:100vh;}
-  #exercices {height:100vh;}
-  #skills {height:100vh;}
-  #contact {height:100vh;}
+  .section{
+    width: 100%;
+    height:100vh;
+    padding-top: 5vh;
+    padding-right: 25vw;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    }
 
 .nav_top{
   position: absolute;
@@ -144,6 +147,16 @@ body {
     align-items: center;
     text-align: center;
   }
+
+  .section{
+    width: 100%;
+    height:100vh;
+    padding-top: 5vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    }
+
 
   #profile {padding-top: 100px}
 

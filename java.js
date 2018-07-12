@@ -3,6 +3,7 @@ $(document).ready(function(){
 
 	affixSelector();
 	scrollSpy();
+	homeScroll();
 });
 
 
@@ -17,7 +18,7 @@ function affixSelector(){
 		affixNavPc();
 
 	}
-}
+};
 
 function affixNavPc(){
 		$('.nav_container').affix({
@@ -59,5 +60,18 @@ function scrollSpy (){
 
 
     });
+
+
   });
+};
+
+function homeScroll(){
+
+$(".nav_top").on("click",function(){
+
+	$('html, body').animate({
+      scrollTop: $("#profile").offset().top
+    }, 500);
+
+	});
 };

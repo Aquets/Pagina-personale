@@ -9,10 +9,22 @@ body {
  #contact {padding-top:50px;color: #fff; background-color: #009688;}
 
 .nav_top{
+  display: flex;
   background-color: black;
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+.nav_top:hover{
+  cursor: pointer;
+}
+
+.point{
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
 
 .nav_container{
@@ -81,6 +93,12 @@ body {
   border-top-right-radius: 4px;
 }
 
+.point{
+  margin-top: 20%;
+  margin-left: 13%;
+}
+
+
   .nav_container{
     width: 130px;
     height: 300px;
@@ -128,6 +146,20 @@ body {
   }
 
   #profile {padding-top: 100px}
+
+  .nav_top{
+    top: 90vh;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+
+  }
+
+  .point{
+    margin-top: 5%;;
+    margin-left: 21vw;
+  }
+
 
   .nav_container{
     position: relative;

@@ -88,6 +88,12 @@ body {
 
 }
 
+.photo-profile{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 @media only screen and (min-width: 767px){
 
   .section{
@@ -222,8 +228,9 @@ body {
     font-size: 133%;
   }
 
-  .textbox{
-    text-align: left;
+  .textbox, .tab{
+    margin-left: 10%;
+    width: 80%;
   }
 
 

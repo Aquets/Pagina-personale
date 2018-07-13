@@ -1,0 +1,24 @@
+
+body{
+  background-color: black;
+}
+
+#q{
+  background-color: red;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+#pianeta{
+  position: absolute;
+  transform: translate(200px,0);
+  height: 30px;
+  width: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+}

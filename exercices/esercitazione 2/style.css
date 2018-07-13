@@ -1,0 +1,104 @@
+
+body{
+  background-color: black;
+}
+
+.planet1{
+  background-color: blue;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+.planet2{
+  background-color: red;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.star{
+  background-color: yellow;
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.orbit{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+}
+.orbit2{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.center{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.revolution{
+  animation: revolution 5s infinite linear;
+
+}
+.revolution2{
+  animation: revolution2 5s infinite linear;
+
+}
+
+@keyframes revolution {
+  from{transform: translate(-50%, -50%) rotate(0deg);}
+  to{transform:translate(-50%, -50%) rotate(-360deg);}
+}
+@keyframes revolution2 {
+  from{transform: translate(-50%, -50%) rotate(0deg);}
+  to{transform:translate(-50%, -50%) rotate(360deg);}
+}
+
+.on{
+  display: block;
+}
+.off{
+  display: none;
+}
+
+.rotate{
+  animation: rotate 0.5s forwards;
+}
+
+.orario{
+  animation: orario 1s infinite;
+}
+
+.antiorario{
+  animation: antiorario 1s infinite;
+}
+
+@keyframes rotate {
+    from{transform: translate(-50%, -50%) rotate(0deg);}
+    to{transform:translate(-50%, -50%) rotate(-225deg);}
+}
+
+@keyframes orario {
+
+  from{transform: translate(-50%, -50%) rotate(0deg);}
+  to{transform:translate(-50%, -50%) rotate(180deg);}
+
+
+}
+@keyframes antiorario {
+
+  from{transform: translate(-50%, -50%) rotate(0deg);}
+  to{transform:translate(-50%, -50%) rotate(-360deg);}
+
+
+}

@@ -1,0 +1,74 @@
+
+
+/*#quadrato{
+  height: 33vh;
+  width: 33vh;
+  background-color: red;
+  margin: auto;
+  top: 50%;
+  transform: translateY(50%);
+}*/
+
+body{
+  background-color: black;
+}
+
+.center{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.on{
+  display: block;
+}
+.off{
+  display: none;
+}
+
+.qu{
+  height: 50%;
+  width: 50%;
+  position:absolute;
+  background-color: yellow;
+}
+
+.q{
+  height: 33vh;
+  width: 33vh;
+  position: absolute;
+  background-color: red;
+}
+
+.rotate{
+  animation: rotate 0.5s forwards;
+}
+
+.orario{
+  animation: orario 1s infinite;
+}
+
+.antiorario{
+  animation: antiorario 1s infinite;
+}
+
+@keyframes rotate {
+    from{transform: translate(-50%, -50%) rotate(0deg);}
+    to{transform:translate(-50%, -50%) rotate(-225deg);}
+}
+
+@keyframes orario {
+
+  from{transform: translate(-50%, -50%) rotate(0deg);}
+  to{transform:translate(-50%, -50%) rotate(180deg);}
+
+
+}
+@keyframes antiorario {
+
+  from{transform: translate(-50%, -50%) rotate(0deg);}
+  to{transform:translate(-50%, -50%) rotate(-360deg);}
+
+
+}

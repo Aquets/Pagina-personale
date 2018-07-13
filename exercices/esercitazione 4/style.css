@@ -1,0 +1,40 @@
+body{
+background-color: black;
+
+}
+
+
+#quadrato{
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+#quadrato.top-left{
+  transition: 1s all;
+  top: 30vh; /*vh: percentuale di schermo*/
+  left: 30vh;
+  background-color: red;
+}
+
+#quadrato.top-right{
+  transition: 1s all;
+  top: 30vh;
+  left: 60vh;
+  background-color: yellow;
+}
+#quadrato.bottom-left{
+  transition: 1s all;
+  top: 30vh; /*vh: percentuale di schermo*/
+  left: 30vh;
+  top: 60vh;
+  background-color: green;
+}
+
+#quadrato.bottom-right{
+  transition: 1s all;
+  top: 30vh;
+  left: 60vh;
+  top: 60vh;
+  background-color: blue;
+}

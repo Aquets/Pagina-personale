@@ -6,12 +6,35 @@ body, h1, h2, h3, p, a{
   font-family: Quicksand;
 }
 
- #home{padding:0;height:100vh;color: #252525; background-color: black;}
+ #home{padding:0;height:100vh;color: white; background-color: black;}
  #profile {padding-top:50px;color: #252525; background-color: #c1deef;}
  #works {padding-top:50px;color: #252525; background-color: #dff3ff;}
  #exercices {padding-top:50px;color: #252525; background-color: #c1deef;}
  #skills {padding-top:50px;color: #252525; background-color: #dff3ff;}
  #contact {padding-top:50px;color: #808080; background-color: #13151b;}
+
+
+ .letter{
+   position: absolute;
+   font-size: 7vw;
+   font-family: Quicksand;
+   font-weight: 300;
+ }
+
+ #Q{left: 20%; transform: translate(-20%);}
+ #U{left: 35%; transform: translate(-35%);}
+ #E{left: 50%; transform: translate(-50%);}
+ #T{right: 35%; transform: translate(35%);}
+ #S{right: 20%; transform: translate(20%);}
+
+.white{
+  position: absolute;
+  background-color: white;
+  width: 80%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 1px;
+}
 
 .nav_top{
   display: flex;
@@ -19,6 +42,12 @@ body, h1, h2, h3, p, a{
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+@keyframes bounce {
+  0% {transform: translate(0,0);}
+  50% {transform: translate(0,-50%);}
+  0% {transform: translate(0,0);}
 }
 
 .nav_top:hover{
@@ -31,6 +60,11 @@ body, h1, h2, h3, p, a{
   width: 20px;
   border-radius: 50%;
 }
+
+#point1{animation: bounce 1s infinite; animation-delay: 0.0s;}
+#point2{animation: bounce 1s infinite; animation-delay: 0.1s;}
+#point3{animation: bounce 1s infinite; animation-delay: 0.2s;}
+
 
 .nav_container{
   background-color: black;
@@ -201,6 +235,19 @@ body, h1, h2, h3, p, a{
 
 @media only screen and (min-width: 767px){
 
+  .letter{
+    top:30vh;
+  }
+
+  .white{
+    top: 55vh;
+  }
+
+  .letter:hover{
+    opacity: 0;
+    transition: 0.5s;
+  }
+
   .section{
     width: 100%;
     height:100vh;
@@ -331,7 +378,9 @@ body, h1, h2, h3, p, a{
 
   .contact_tab img:hover{
     background-color: #808080;
+    transition: 0.5s;
     cursor: pointer;
+
   }
 
 
@@ -344,6 +393,14 @@ body, h1, h2, h3, p, a{
   body{
     align-items: center;
     text-align: center;
+  }
+
+  .letter{
+    top: 40vh;
+  }
+
+  .white{
+    top: 50vh;
   }
 
   .section{

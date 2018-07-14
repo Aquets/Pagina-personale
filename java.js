@@ -19,7 +19,9 @@ function affixSelector(){
 		affixNavPc();
 
 	}
-};
+
+}
+setInterval(affixSelector, 5000);
 
 function affixNavPc(){
 		$('.nav_container').affix({

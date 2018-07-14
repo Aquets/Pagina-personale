@@ -35,6 +35,8 @@ function affixNavPhone(){
         top: $(window).height() * 1.0
       }
 		});
+		$('.nav li a[href="#exercices"]').text('Exerc.');
+
 };
 
 function scrollSpy (){

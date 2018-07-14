@@ -101,10 +101,14 @@ body, h1, h2, h3, p, a{
 .line{
   width: 100%;
   height: 1px;
-  background-color: #252525;
+  background-color: #a7b7c0;
   margin-top: 20px;
   margin-bottom: 10px;
 }
+.dark{
+  background-color: #252525;
+}
+
 .photo_grid_item{
   background-color: black;
   cursor: pointer;

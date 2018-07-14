@@ -157,6 +157,21 @@ body, h1, h2, h3, p, a{
   font-size: 150%;
 }
 
+.skill_tab{
+  width: 100%;
+  text-align: center;
+}
+
+.skill_tab td{
+  width: 33%;
+}
+
+.skill_tab p{
+  font-size: 120%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 
 @media only screen and (min-width: 767px){
 
@@ -279,6 +294,9 @@ body, h1, h2, h3, p, a{
     transition: 0.5s;
   }
 
+  .skill_tab img{
+    width: 20%;
+  }
 
 
 }
@@ -292,14 +310,17 @@ body, h1, h2, h3, p, a{
 
   .section{
     width: 100%;
-    padding-top: 5vh;
     padding-right: 5vw;
     padding-left: 5vw;
     padding-bottom: 5vh;
     }
 
 
-  #profile {padding-top: 100px}
+    #profile {padding-top: 100px}
+    #works {padding-top: 100px}
+    #exercices {padding-top: 100px}
+    #skills {padding-top: 100px; padding-bottom: 20px;}
+    #contact {padding-top: 100px}
 
   .nav_top{
     top: 90vh;
@@ -391,6 +412,11 @@ body, h1, h2, h3, p, a{
   .portrait{
     width: 90vw;
   }
+
+  .skill_tab img{
+    width: 60%;
+  }
+
 
 
 }

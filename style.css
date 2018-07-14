@@ -44,7 +44,7 @@ body, h1, h2, h3, p, a{
 }
 
 .active{
-  background-color: #414350;
+  background-color: #333;
 }
 
 .contenitore{
@@ -74,11 +74,6 @@ body, h1, h2, h3, p, a{
   color: white;
 }
 
-
-.contenitore ul li a:hover{
-
-    background-color: #191b23;
-}
 
 .tab{
   display: flex;
@@ -130,9 +125,6 @@ body, h1, h2, h3, p, a{
   transform: translate(-50%, -50%);
 }
 
-.photo_back:hover{
-  cursor: pointer;
-}
 
 .hide{
   display: none;
@@ -175,6 +167,36 @@ body, h1, h2, h3, p, a{
   padding-top: 10px;
   padding-bottom: 20px;
 }
+
+.contact_tab{
+  width: 100%;
+  text-align: center;
+}
+
+.contact_tab td{
+  width: 33%;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+
+.contact_tab img{
+  border-radius: 50%;
+  width: 50%;
+}
+
+
+.credits p{
+  text-align: center;
+  font-size: 80%;
+  color: #565656;
+}
+
+.contenitore ul li a:hover{
+
+    background-color: #191b23;
+}
+
 
 
 @media only screen and (min-width: 767px){
@@ -303,6 +325,18 @@ body, h1, h2, h3, p, a{
   }
 
 
+  .photo_back:hover{
+    cursor: pointer;
+  }
+
+  .contact_tab img:hover{
+    background-color: #808080;
+    cursor: pointer;
+  }
+
+
+
+
 }
 
 @media only screen and (max-width: 767px)  {
@@ -324,7 +358,7 @@ body, h1, h2, h3, p, a{
     #works {padding-top: 100px}
     #exercices {padding-top: 100px}
     #skills {padding-top: 100px; padding-bottom: 20px;}
-    #contact {padding-top: 100px}
+    #contact {padding-top: 100px; height: 100vh;}
 
   .nav_top{
     top: 90vh;
@@ -420,7 +454,6 @@ body, h1, h2, h3, p, a{
   .skill_tab img{
     width: 60%;
   }
-
 
 
 }
